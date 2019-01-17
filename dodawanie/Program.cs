@@ -10,12 +10,15 @@ namespace dodawanie
     {
         static void Main(string[] args)
         {
-            String FirstNumber = "";
-            String SecondNumber = "";
+
+            int FirstNumber = 0;
+            int SecondNumber = 0;
+            int MaxNumber = 10;
+            int LowNumber = 0;
             int Sum;
-            int FirstNum = 0;
-            int SecondNum = 0;
-            String con = "";
+            
+           
+            
             Console.WriteLine("Witamy w dodwaniu");
 
             do
@@ -23,18 +26,19 @@ namespace dodawanie
                 try
                 {
                     Console.WriteLine("Podaj Pierwsza Liczbe 0-10: ");
-                    FirstNumber = Console.ReadLine();
-                    FirstNum = int.Parse(FirstNumber);
+                    int GetNumber = int.Parse(Console.ReadLine());
 
-
-
-                    if (FirstNum > 10 || FirstNum < 0)
+                    if (GetNumber <= MaxNumber && GetNumber > LowNumber)
                     {
-                        Console.WriteLine("nie Poprawana liczba sprobuj ponownie");
+                        
+                        break;
 
                     }
                     else
-                        con = "wkoncuRaz";
+                        FirstNumber = GetNumber;
+                    Console.WriteLine("nie Poprawana liczba sprobuj ponownie");
+
+
 
                 }
                 catch (FormatException fEx)
@@ -61,24 +65,27 @@ namespace dodawanie
 
 
                 }
-            } while (con != "wkoncuRaz");
+            } while (true);
 
 
             do
             {
                 try
                 {
-                    Console.WriteLine("Podaj druga liczbe 0-10: ");
-                    SecondNumber = Console.ReadLine();
-                    SecondNum = int.Parse(SecondNumber);
+                    Console.WriteLine("Podaj druga Liczbe 0-10: ");
+                    int GetNumber = int.Parse(Console.ReadLine());
 
-                    if (SecondNum > 10 || SecondNum < 0)
+
+                    if (GetNumber <= MaxNumber && GetNumber > LowNumber)
+
                     {
-                        Console.WriteLine("nie Poprawana liczba sprobuj ponownie");
+                        break;
 
                     }
                     else
-                        con = "wkoncuDwa";
+                        SecondNumber = GetNumber;
+                    Console.WriteLine("nie Poprawana liczba sprobuj ponownie");
+
 
                 }
                 catch (FormatException fEx)
@@ -104,11 +111,11 @@ namespace dodawanie
                 
 
             }
-            while (con != "wkoncuDwa");
+            while (true);
 
-             
 
-                Sum = FirstNum + SecondNum;
+
+            Sum = FirstNumber + SecondNumber;
                 Console.WriteLine("Wynik dodawania to : " + Sum + "");
                 Console.ReadKey();
             
