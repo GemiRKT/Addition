@@ -86,8 +86,8 @@ namespace dodawanie
         static int PobierzLiczbe(int Num)
         {
 
-            String Number = "";
-            String con = "";
+            string Number = "";
+            string con = "";
 
             do
             {
@@ -126,10 +126,10 @@ namespace dodawanie
 
         class Dzialania
         {
+            int wynik;
                          
             public int Dodawanie(int FirstNum ,int SecondNum)
             {
-                int wynik;
                 wynik = FirstNum + SecondNum;
                 Console.WriteLine("Wynik Dodawania to : " + wynik + "");
                 Console.WriteLine("Nacisnij dowolny klawisz aby wyjsc");
@@ -140,7 +140,6 @@ namespace dodawanie
             }
             public int Odejmowanie(int FirstNum, int SecondNum)
             {
-                int wynik;
                 wynik = FirstNum - SecondNum;
                 Console.WriteLine("Wynik Odejmowania to : " + wynik + "");
                 Console.WriteLine("Nacisnij dowolny klawisz aby wyjsc");
