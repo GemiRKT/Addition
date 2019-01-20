@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("dodawanie")]
+[assembly: AssemblyTitle("NowyDodawacz")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("dodawanie")]
+[assembly: AssemblyProduct("NowyDodawacz")]
 [assembly: AssemblyCopyright("Copyright ©  2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("91563d00-ff86-4608-807b-d7eed3c65ca7")]
+[assembly: Guid("6a1c5576-00bc-444b-a63a-e813b8efc45f")]
 
 // Version information for an assembly consists of the following four values:
 //

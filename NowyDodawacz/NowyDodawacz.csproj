@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{91563D00-FF86-4608-807B-D7EED3C65CA7}</ProjectGuid>
+    <ProjectGuid>{6A1C5576-00BC-444B-A63A-E813B8EFC45F}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>dodawanie</RootNamespace>
-    <AssemblyName>dodawanie</AssemblyName>
+    <RootNamespace>NowyDodawacz</RootNamespace>
+    <AssemblyName>NowyDodawacz</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
