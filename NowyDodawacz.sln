@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dodawanie", "dodawanie\dodawanie.csproj", "{91563D00-FF86-4608-807B-D7EED3C65CA7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NowyDodawacz", "NowyDodawacz\NowyDodawacz.csproj", "{6A1C5576-00BC-444B-A63A-E813B8EFC45F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{91563D00-FF86-4608-807B-D7EED3C65CA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{91563D00-FF86-4608-807B-D7EED3C65CA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{91563D00-FF86-4608-807B-D7EED3C65CA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{91563D00-FF86-4608-807B-D7EED3C65CA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A1C5576-00BC-444B-A63A-E813B8EFC45F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A1C5576-00BC-444B-A63A-E813B8EFC45F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A1C5576-00BC-444B-A63A-E813B8EFC45F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A1C5576-00BC-444B-A63A-E813B8EFC45F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {D0E44FD5-5959-4239-93F9-0A0BA75A4E5D}
+		SolutionGuid = {6C26B94F-E252-419F-9021-1F6667EAB066}
 	EndGlobalSection
 EndGlobal
