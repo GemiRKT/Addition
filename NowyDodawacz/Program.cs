@@ -15,14 +15,14 @@ namespace NowyDodawacz
             String Operator = "";
             Console.WriteLine("Witamy w SuperNowym Liczydle 2019");
 
-            Pobrania number = new Pobrania();
+            Sprawdz number = new Sprawdz();
             
-            int FirstNum = number.Sprawdz(Num);
+            int FirstNum = number.SprawdzLiczby(Num);
  
             Pobrania Op = new Pobrania();
             String Oper =Op.PobierzOperator(Operator);
 
-            int SecondNum = number.Sprawdz(Num);
+            int SecondNum = number.SprawdzLiczby(Num);
 
             Wybor end = new Wybor();
             end.Wybordzialania(FirstNum, SecondNum, Oper);
